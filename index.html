@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Survey 2020</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="brand"><span>Survey</span> 2020</h1>
+    <div class="wrapper">
+      <div class="company-info">
+        <h3>survey form</h3>
+        <ul>
+          <li><i class="survey by: name"></i> Shraavya</li>
+          <li><i class="phone"></i> (080) 555-5555</li>
+          <li><i class="econtace"></i> test@survey.test</li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Email Us</h3>
+        <div class="alert">Your message will be sent</div>
+        <form id="contactForm">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" id="name" required>
+          </p>
+          <p>
+            <label>Company</label>
+            <input type="text" name="company" id="company">
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" id="email" required>
+          </p>
+          <p>
+            <label>Phone Number</label>
+            <input type="text" name="phone" id="phone">
+          </p>
+          <p>
+            <label>would youlike to donate money for food to poor ?type yes or no</label>
+            <input type="text" name="Ans" id="Ans" required>
+          </p>
+          <p>
+            <label>how much will you donate?Type "0" if you are not donating</label>
+            <input type="text" name="Amount" id="Amount" required>
+          </p>
+
+          <p class="full">
+            <label>Message</label>
+            <textarea name="message" rows="5" id="message"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
